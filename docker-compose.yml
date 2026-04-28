@@ -1,0 +1,8 @@
+services:
+  phishing-site:
+    image: phishing-site
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - ./stats_campagne.csv:/var/www/html/stats_campagne.csv
