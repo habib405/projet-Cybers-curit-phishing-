@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sensibilisation | Campus numérique - Università di Corsica</title>
+    <style>
+        /* --- MÊME CSS EXACTEMENT QUE LA PAGE DE LOGIN --- */
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Arial', 'Helvetica', sans-serif; }
+        body { background-color: #f4f4f4; color: #333; font-size: 14px; }
+        .top-bar { background-color: #333333; color: #fff; padding: 10px 20px; font-size: 13px; display: flex; align-items: center; }
+        .top-bar-content { width: 100%; max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 15px; }
+        .top-bar span { font-weight: bold; }
+        .top-bar a { color: #fff; text-decoration: none; margin-right: 15px; }
+        .separator { margin: 0 10px; color: #888; }
+        .header-logo-area { background-color: #fff; padding: 20px 0; border-bottom: 1px solid #e0e0e0; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; display: flex; justify-content: space-between; align-items: center; }
+        .logo img { height: 80px; width: auto; }
+        .page-title { text-align: right; }
+        .page-title h1 { color: #ff6600; font-weight: normal; font-size: 32px; margin: 0; display: inline-block; }
+        .page-title span { color: #ff6600; font-size: 20px; margin-left: 10px; }
+        .main-content { max-width: 1100px; margin: 20px auto; padding: 0 10px; }
+        
+        /* Modifs pour la boite de message */
+        .login-card { background-color: #fff; border: 1px solid #ccc; padding: 30px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 20px; border-top: 5px solid #ff6600; }
+        .card-header { color: #ff6600; font-size: 18px; margin-bottom: 25px; font-weight: bold; }
+        .message-content { font-size: 16px; line-height: 1.6; color: #333; margin-bottom: 30px; }
+        .highlight-box { background-color: #fff3e0; border-left: 4px solid #ff6600; padding: 15px; margin: 20px 0; }
+        .btn-submit { background-color: #ff6600; color: #fff; border: 2px solid #ff6600; padding: 12px 30px; font-size: 14px; font-weight: bold; cursor: pointer; text-transform: uppercase; text-decoration: none; display: inline-block; }
+        .btn-submit:hover { background-color: #e65c00; border-color: #e65c00; }
+        .partners { margin-top: 30px; font-size: 13px; color: #666; border-top: 1px solid #eee; padding-top: 15px; }
+    </style>
+</head>
+<body>
+
+    <div class="top-bar">
+        <div class="top-bar-content">
+            <span>UNIVERSITÀ DI CORSICA</span>
+            <span class="separator">|</span>
+            <span>NOS PORTAILS :</span>
+            <a href="#">Étudiants</a>
+            <a href="#">Personnels</a>
+            <a href="#">Recherche</a>
+        </div>
+    </div>
+
+    <div class="header-logo-area">
+        <div class="container">
+            <div class="logo">
+                <img src="logo-universite.png" alt="Logo Università di Corsica Pasquale Paoli">
+            </div>
+            <div class="page-title">
+                <h1>Authentification |</h1>
+                <span>Campus numérique</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="login-card">
+            <div class="card-header">
+                > EXERCICE DE SENSIBILISATION À LA SÉCURITÉ
+            </div>
+
+            <div class="message-content">
+                <p><strong>Ceci est un TP des étudiants de Master Informatique de l'Université de Corse.</strong></p>
+                
+                <div class="highlight-box">
+                    <p>Si vous lisez ce message, c'est que vous avez cliqué sur un lien de simulation de <strong>Phishing</strong>.</p>
+                    <br>
+                    <p>Rassurez-vous : <strong>Aucune donnée personnelle n'a été enregistrée</strong>. Ceci est une action de prévention.</p>
+                </div>
+
+                <p>Soyez vigilant : vérifiez toujours l'adresse (URL) dans la barre du navigateur (<code>univ-corse.fr</code>) avant de saisir vos codes.</p>
+            </div>
+
+            <a href="https://cas.univ-corse.fr" class="btn-submit">Retourner vers le site officiel</a>
+
+            <div class="partners">
+                <p>Projet réalisé en partenariat avec la Gendarmerie Nationale et l'Association SIC.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
